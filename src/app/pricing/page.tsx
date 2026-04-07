@@ -277,20 +277,19 @@ export default function PricingPage() {
 
       <section
         style={{
-          padding: "0 0 100px",
+          padding: "8px 0 64px",
           position: "relative",
           overflow: "hidden",
           background: "linear-gradient(135deg, #F4FFF4 0%, #E6FAE8 35%, #D2F5D4 65%, #E8F7FF 100%)",
-          borderTop: "10px solid #D8F24A",
         }}
       >
         <div style={{ position: "absolute", inset: 0, background: "radial-gradient(circle at 20% 30%, rgba(255,255,255,0.7), transparent 38%), radial-gradient(circle at 78% 22%, rgba(187,247,208,0.45), transparent 30%)" }} />
         <div style={{ position: "absolute", inset: "auto 0 0 0", height: 60, backgroundImage: "linear-gradient(to right, rgba(148,163,184,0.18) 1px, transparent 1px), linear-gradient(to bottom, rgba(148,163,184,0.12) 1px, transparent 1px)", backgroundSize: "84px 60px", opacity: 0.55 }} />
-        <div className="max-w-[1280px] mx-auto px-6 text-center relative" style={{ paddingTop: 78, paddingBottom: 92, zIndex: 1 }}>
+        <div className="max-w-[1280px] mx-auto px-6 text-center relative" style={{ paddingTop: 52, paddingBottom: 58, zIndex: 1 }}>
           <h2 style={{ fontSize: "clamp(34px, 5vw, 58px)", fontWeight: 800, color: "#0F2343", lineHeight: 1.15, letterSpacing: "-1.4px", maxWidth: 860, margin: "0 auto 18px" }}>
             Ready to Transform Your HR Operations?
           </h2>
-          <p style={{ fontSize: 16, color: "#64748B", lineHeight: 1.8, maxWidth: 560, margin: "0 auto 34px" }}>
+          <p style={{ fontSize: 16, color: "#64748B", lineHeight: 1.8, maxWidth: 560, margin: "0 auto 26px" }}>
             Join 500+ Indian companies. 14-day free trial with full access to all 9 modules.
           </p>
           <div className="flex justify-center">
